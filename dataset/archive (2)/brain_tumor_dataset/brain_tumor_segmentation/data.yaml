@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['brain_tumor']
+
+roboflow:
+  workspace: bilalai
+  project: anomali_detect_with_brain_tumor
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/bilalai/anomali_detect_with_brain_tumor/dataset/1
