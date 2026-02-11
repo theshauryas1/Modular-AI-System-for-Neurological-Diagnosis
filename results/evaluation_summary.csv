@@ -1,0 +1,2 @@
+Model,Accuracy (%),Precision (%),Recall (%),F1 Score (%)
+mobilenetv2,97.47,97.46,97.51,97.48

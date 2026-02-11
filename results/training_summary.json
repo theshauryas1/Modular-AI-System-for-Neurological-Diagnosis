@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-11T12:06:00",
+  "device": "cuda",
+  "models": {
+    "resnet50": {
+      "best_val_acc": 98.73417721518987,
+      "epochs_trained": 16,
+      "training_time": 3384.0
+    },
+    "resnet101": {
+      "best_val_acc": 99.11392405063291,
+      "epochs_trained": 49,
+      "training_time": 13854.0
+    },
+    "densenet121": {
+      "best_val_acc": 98.70253164556962,
+      "epochs_trained": 39,
+      "training_time": 7827.761869907379
+    },
+    "efficientnet_b4": {
+      "best_val_acc": 99.33544303797468,
+      "epochs_trained": 34,
+      "training_time": 10742.597446203232
+    },
+    "mobilenetv2": {
+      "best_val_acc": 97.34177215189874,
+      "epochs_trained": 50,
+      "training_time": 4421.1305158138275
+    }
+  }
+}

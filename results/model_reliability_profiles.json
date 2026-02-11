@@ -1,0 +1,116 @@
+{
+  "efficientnet_b4": {
+    "model_name": "efficientnet_b4",
+    "reliability_score": 0.9252499999999999,
+    "accuracy_score": 0.974,
+    "stability_score": 0.8200000000000001,
+    "calibration_score": 0.6499999999999999,
+    "speed_score": 0.774,
+    "tier": "TOP",
+    "strengths": [
+      "Excellent F1 score (>=95%)",
+      "High recall - catches most cases",
+      "Stable across cross-validation folds",
+      "Well-calibrated confidence scores"
+    ],
+    "weaknesses": [],
+    "class_reliability": {
+      "glioma": 0.96,
+      "meningioma": 0.98,
+      "pituitary": 0.99
+    },
+    "weak_classes": [],
+    "voting_weight": 0.9252499999999999,
+    "evaluated_at": "2026-02-03T18:21:50.086933"
+  },
+  "resnet101": {
+    "model_name": "resnet101",
+    "reliability_score": 0.8985750000000001,
+    "accuracy_score": 0.959,
+    "stability_score": 0.75,
+    "calibration_score": 0.52,
+    "speed_score": 0.8095,
+    "tier": "HIGH",
+    "strengths": [
+      "Excellent F1 score (>=95%)",
+      "High recall - catches most cases",
+      "Well-calibrated confidence scores"
+    ],
+    "weaknesses": [],
+    "class_reliability": {
+      "glioma": 0.94,
+      "meningioma": 0.97,
+      "pituitary": 0.98
+    },
+    "weak_classes": [],
+    "voting_weight": 0.8985750000000001,
+    "evaluated_at": "2026-02-03T18:21:50.087066"
+  },
+  "densenet121": {
+    "model_name": "densenet121",
+    "reliability_score": 0.8801749999999999,
+    "accuracy_score": 0.949,
+    "stability_score": 0.69,
+    "calibration_score": 0.44999999999999996,
+    "speed_score": 0.8375,
+    "tier": "HIGH",
+    "strengths": [
+      "High recall - catches most cases"
+    ],
+    "weaknesses": [],
+    "class_reliability": {
+      "glioma": 0.92,
+      "meningioma": 0.96,
+      "pituitary": 0.97
+    },
+    "weak_classes": [],
+    "voting_weight": 0.8801749999999999,
+    "evaluated_at": "2026-02-03T18:21:50.087079"
+  },
+  "resnet50": {
+    "model_name": "resnet50",
+    "reliability_score": 0.8775749999999999,
+    "accuracy_score": 0.943,
+    "stability_score": 0.72,
+    "calibration_score": 0.38,
+    "speed_score": 0.8585,
+    "tier": "HIGH",
+    "strengths": [
+      "Fast inference (real-time capable)"
+    ],
+    "weaknesses": [
+      "High-confidence errors (6)"
+    ],
+    "class_reliability": {
+      "glioma": 0.91,
+      "meningioma": 0.95,
+      "pituitary": 0.96
+    },
+    "weak_classes": [],
+    "voting_weight": 0.8775749999999999,
+    "evaluated_at": "2026-02-03T18:21:50.087090"
+  },
+  "mobilenetv2": {
+    "model_name": "mobilenetv2",
+    "reliability_score": 0.8388,
+    "accuracy_score": 0.918,
+    "stability_score": 0.62,
+    "calibration_score": 0.21999999999999997,
+    "speed_score": 0.909,
+    "tier": "HIGH",
+    "strengths": [
+      "Fast inference (real-time capable)"
+    ],
+    "weaknesses": [
+      "High-confidence errors (8)"
+    ],
+    "class_reliability": {
+      "glioma": 0.88,
+      "meningioma": 0.93,
+      "pituitary": 0.94
+    },
+    "weak_classes": [],
+    "voting_weight": 0.8388,
+    "evaluated_at": "2026-02-03T18:21:50.087100"
+  }
+}
