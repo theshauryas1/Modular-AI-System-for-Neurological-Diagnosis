@@ -1,5 +1,7 @@
 # Brain MRI Tumor Classification System
 
+https://github.com/user-attachments/assets/042a22d8-b661-4095-9191-6c5633190b6d
+
 A deep learning system for multi-class brain tumor classification from MRI scans using transfer learning with five CNN architectures, evaluated through an AI-agent pipeline.
 
 ## Overview
